@@ -1,0 +1,26 @@
+{
+  "name": "observer-pattern-magazine",
+  "version": "1.0.0",
+  "description": "Interactive Observer Pattern implementation using Magazine Subscription analogy",
+  "main": "main.js",
+  "scripts": {
+    "install-deps": "npm install",
+    "build": "tsc --target es2020 --module es2020 --moduleResolution node *.ts",
+    "start": "npm run build && node main.js",
+    "demo": "npm run build && node demo.js",
+    "clean": "rm -f *.js"
+  },
+  "keywords": [
+    "observer-pattern",
+    "design-patterns",
+    "typescript",
+    "behavioral-pattern",
+    "interactive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
